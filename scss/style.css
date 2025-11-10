@@ -8,37 +8,6 @@
   max-width: 100%;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  height: 17vh;
-  max-width: 90vw;
-  margin: 0 auto;
-  padding: 10px 0;
-}
-nav .nav-links {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-nav .nav-links a {
-  color: #16495c;
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-nav .nav-whats {
-  display: flex;
-  align-items: center;
-}
-nav .nav-whats a {
-  padding: 10px 30px;
-  background-color: #16495c;
-  color: #fff;
-  font-size: 1.3rem;
-  border-radius: 10px;
-  box-shadow: 0px 5px 10px 1px #888;
-}
-
 .header-container {
   background-color: #131f2c;
   background-image: url(./assets/HeroSection.png);
