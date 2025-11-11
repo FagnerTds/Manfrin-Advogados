@@ -1,11 +1,21 @@
+@use "./settings" as *;
 
+.nav-container {
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px 3px 10px 1px #888;
+}
 nav {
   display: flex;
   justify-content: space-between;
   height: 17vh;
   max-width: 90vw;
-  margin: 0 auto;  
+  margin: 0 auto;
   padding: 10px 0;
+  gap: 10px;
+
   .nav-links {
     display: flex;
     gap: 30px;
@@ -14,12 +24,15 @@ nav {
       color: $azul-claro;
       font-weight: 600;
       font-size: 1.3rem;
+      @media (max-width: 900px) {
+        font-size: 1rem;
+      }
     }
   }
-  .nav-whats {     
+  .nav-whats {
     display: flex;
     align-items: center;
-    a{
+    a {
       padding: 10px 30px;
       background-color: $azul-claro;
       color: #fff;

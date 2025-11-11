@@ -4,24 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/style.css">
   <title>Manfrin Advogados</title>
 </head>
 
 <body>
   <header>
-    <nav>
-      <img src="./assets/Manfrin.png" alt="Logo">
-      <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">O Escritório</a>
-        <a href="#">Áreas de Atuação</a>
-        <a href="./contato.html">Contato</a>
-      </div>
-      <div class="nav-whats">
-        <a href="#">WhatsApp</a>
-      </div>
-    </nav>
+    <div class="nav-container">
+      <nav>
+        <img src="./assets/Manfrin.png" alt="Logo">
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">O Escritório</a>
+          <a href="#">Áreas de Atuação</a>
+          <a href="./contato.html">Contato</a>
+        </div>
+        <div class="nav-whats">
+          <a href="#">WhatsApp</a>
+        </div>
+      </nav>
+    </div>
     <div class="header-container">
       <div class="header-second-container">
         <h1>Excelência e Confiança na Proteção dos Seus Interesses.</h1>
@@ -29,16 +31,71 @@
           <button>Entre em Contato</button>
           <button>Áreas de Atuação</button>
         </div>
-      </div>      
+      </div>
     </div>
   </header>
-  <section>
+  <section class="nossa-fundadora">
     <h2>Nossa Fundadora</h2>
     <h3>Conheça o profissional por trás do escritório Manfrin & Mielo Sociedade de Advogados</h3>
-    <p>
-      
-    </p>
+    <article class="card-container">
+      <h4>Dra. Caroline Ive Sena Manfrin Mielo</h4>
+      <p class="sub">Sócia Fundadora e Advogada. OAB/SP 484.621</p>
+      <div class="card-conteudo">
+        <div class="foto">
+          <img src="./assets/Carol.jpeg" alt="foto">
+        </div>
+        <div>
+          <p>Com formação em Gestão de Recursos Humanos e dez anos de experiência em desenvolvimento institucional e relações trabalhistas, a Dra. Caroline Manfrin consolidou uma base sólida em gestão de pessoas antes de ingressar na advocacia. Essa trajetória despertou seu interesse pelo Direito do Trabalho, área em que atua com foco em bancários, além das áreas Cível, Sucessória e de Holding Familiar e Direito Sindical.</p>
+          <button>Biografia Completa</button>
+        </div>
+      </div>
+    </article>
   </section>
+
+  <footer>
+    <div class="first-footer">
+      <h2>Precisa de Ajuda Jurídica</h2>
+      <p>Nossa equipe está pronta para atender você com a máxima dedicação e profissionalismo.</p>
+      <div class="footer-button">
+        <a href="https://api.whatsapp.com/send/?phone=5511991971564&text&type=phone_number&app_absent=0">WhatsApp (11) 99197-1564</a>
+        <a href="#">Agende uma Consulta</a>
+      </div>
+    </div>
+
+    <div class="footer-second-container">
+      <div class="footer-second">
+        <div class="footer-second_descricao">
+          <h2>Manfrin & Mielo Sociedade de Advogados</h3>
+          <p>Excelência e confiança na proteção dos seus interesses, com especialistas comprometidos com a ética e a efetividade dos resultados.</p>
+        </div>
+        <div class="footer-second_links">
+          <h2>Links Rápidos</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">O Escritório</a></li>
+            <li><a href="#">Áreas de Atuação</a></li>
+            <li><a href="#">Nossa Equipe</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-second_contatos">
+          <h2>Contato</h2>
+          <a href="https://api.whatsapp.com/send/?phone=5511991971564&text&type=phone_number&app_absent=0">(11) 99197-1564</a>
+          <a href="mailto:caroline@manfrinadvogados.com.br">caroline@manfrinadvogados.com.br</a>
+          <p>Seg-Sex, 9h às 18h</p>
+        </div>
+      </div>
+      <div class="footer-second-container_fim">
+        <div class="footer-second_fim">
+          <p>© 2025 Manfrin & Mielo Sociedade de Advogados. Todos os direitos reservados.</p>
+          <p>OAB/SP - Registro: 484.621</p>
+        </div>
+        <a href="#">Política de Privacidade</a>
+
+      </div>
+
+    </div>
+  </footer>
 </body>
 
 </html>
