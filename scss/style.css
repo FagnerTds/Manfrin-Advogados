@@ -168,7 +168,7 @@ body {
 
 .header-container {
   background-color: #131f2c;
-  background-image: url("../../assets/HeroSection.png");
+  background-image: url("../assets/HeroSection.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -277,7 +277,7 @@ body {
 
 .header-container_escritorio {
   background-color: #131f2c;
-  background-image: url("../../assets/esxritório.png");
+  background-image: url("../assets/esxritório.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
