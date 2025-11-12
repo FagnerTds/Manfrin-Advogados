@@ -7,13 +7,13 @@ body {
   background-color: #131f2c;
   background-image: linear-gradient(
       to right,
-      #131f2c 46%,
+      #131f2c 30%,
       rgba(19, 31, 44, 0.6),
       transparent
     ),
     url("../assets/escritorio.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: right;
   display: flex;
   height: 70vh;
