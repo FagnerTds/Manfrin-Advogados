@@ -1,0 +1,174 @@
+@use "../layout/settings" as *;
+
+body {
+  margin-top: 17vh;
+}
+.header-container_escritorio {
+  background-color: #131f2c;
+  background-image: url("/assets/esxritório.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  height: 70vh;
+}
+.header-second-container_escritorio {
+  max-width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+  gap: 50px;
+  h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+  }
+  p {
+    font-size: 1.8rem;
+    color: #f0f0f0;
+  }
+  button {
+    margin: 0 20px;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 10px 0px #888;
+  }
+}
+.nossa-missao-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nossa-missao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    color: $azul-claro;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+    color: $azul-escuro;
+  }
+}
+.foco {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px 1px #000;
+
+  h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: $azul-claro;
+  }
+  p {
+    font-size: 1.2rem;
+    color: $azul-escuro;
+  }
+}
+
+.valores{
+  background-color: #f4f4f4;
+}
+.valores-container{
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 70px 0;
+  h2{
+    font-size: 2.5rem;
+    color: $azul-claro;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  h4{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    color: $azul-escuro;
+  }
+}
+.card-container_escritorio{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 70px 0;
+  
+}
+.card-conteudo_escritorio{
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 10px 1px #000;
+  display: grid;
+
+  h3{
+    font-size: 1.5rem;
+    color: $azul-claro;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 1.2rem;
+    color: $azul-escuro;
+  }
+}
+.diferencial-container{
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 70px 0;
+
+  h2{
+    font-size: 2.5rem;
+    color: $azul-claro;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.diferncial-card-container{
+  display: flex;
+  align-items: center;
+  gap: 50px;  
+}
+.diferencial-card{
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 15px;
+  width: 40vw;
+  box-shadow: 0px 5px 10px 1px #000;
+
+  h3{
+    font-size: 1.5rem;
+    color: $azul-claro;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p{
+    font-size: 1.2rem;
+    color: $azul-escuro;
+    text-align: center;
+  }  
+}
+
+dt{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 600;
+    color: $azul-claro;
+  }
+  dd{
+    margin-bottom: 20px;
+  }

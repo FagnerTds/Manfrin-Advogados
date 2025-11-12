@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
@@ -33,6 +34,15 @@ nav {
   padding: 10px 0;
   gap: 10px;
 }
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo img {
+  max-height: 100%;
+  width: auto;
+  display: block;
+}
 nav .nav-links {
   display: flex;
   gap: 30px;
@@ -62,8 +72,7 @@ nav .nav-whats a {
 }
 
 footer {
-  margin-top: 50px;
-  background: linear-gradient(to top, #131f2c, #16495c);
+  background: linear-gradient(to top, #131f2c 50%, #16495c);
 }
 
 .first-footer {
@@ -197,6 +206,7 @@ body {
   max-width: 90vw;
   margin: 0 auto;
   padding: 60px 0;
+  margin-bottom: 50px;
 }
 .nossa-fundadora h2 {
   font-size: 3rem;
@@ -259,4 +269,184 @@ body {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 3px 10px 1px #888;
+}
+
+body {
+  margin-top: 17vh;
+}
+
+.header-container_escritorio {
+  background-color: #131f2c;
+  background-image: url("/assets/esxritório.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  height: 70vh;
+}
+
+.header-second-container_escritorio {
+  max-width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+  gap: 50px;
+}
+.header-second-container_escritorio h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+.header-second-container_escritorio p {
+  font-size: 1.8rem;
+  color: #f0f0f0;
+}
+.header-second-container_escritorio button {
+  margin: 0 20px;
+  flex-direction: row;
+  gap: 20px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 3px 10px 0px #888;
+}
+
+.nossa-missao-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nossa-missao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nossa-missao h2 {
+  color: #16495c;
+  font-size: 2.5rem;
+}
+.nossa-missao p {
+  font-size: 1.2rem;
+  color: #131f2c;
+}
+
+.foco {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px 1px #000;
+}
+.foco h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #16495c;
+}
+.foco p {
+  font-size: 1.2rem;
+  color: #131f2c;
+}
+
+.valores {
+  background-color: #f4f4f4;
+}
+
+.valores-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.valores-container h2 {
+  font-size: 2.5rem;
+  color: #16495c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.valores-container h4 {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #131f2c;
+}
+
+.card-container_escritorio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 70px 0;
+}
+
+.card-conteudo_escritorio {
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 10px 1px #000;
+  display: grid;
+}
+.card-conteudo_escritorio h3 {
+  font-size: 1.5rem;
+  color: #16495c;
+  margin-bottom: 20px;
+}
+.card-conteudo_escritorio p {
+  font-size: 1.2rem;
+  color: #131f2c;
+}
+
+.diferencial-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.diferencial-container h2 {
+  font-size: 2.5rem;
+  color: #16495c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.diferncial-card-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.diferencial-card {
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 15px;
+  width: 40vw;
+  box-shadow: 0px 5px 10px 1px #000;
+}
+.diferencial-card h3 {
+  font-size: 1.5rem;
+  color: #16495c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.diferencial-card p {
+  font-size: 1.2rem;
+  color: #131f2c;
+  text-align: center;
+}
+
+dt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+  color: #16495c;
+}
+
+dd {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */

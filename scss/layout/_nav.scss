@@ -15,6 +15,16 @@ nav {
   margin: 0 auto;
   padding: 10px 0;
   gap: 10px;
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      max-height: 100%; // adapta o tamanho da imagem à altura do nav
+      width: auto;
+      display: block; // remove espaçamento interno do <img>
+    }
+  }
 
   .nav-links {
     display: flex;
