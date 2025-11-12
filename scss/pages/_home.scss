@@ -5,17 +5,17 @@ body{
 }
 .header-container {
   background-color: #131f2c;
-  background-image: url("../../assets/HeroSection.png");
+  background-image: url("../assets/HeroSection.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
   display: flex;
-  height: 90vh;
+  height: 80vh;
 }
 .header-second-container {
   max-width: 70vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   padding: 40px;
   gap: 50px;

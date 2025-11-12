@@ -5,7 +5,13 @@ body {
 }
 .header-container_escritorio {
   background-color: #131f2c;
-  background-image: url("../../assets/esxritório.png");
+  background-image: linear-gradient(
+      to right,
+      #131f2c 46%,
+      rgba(19, 31, 44, 0.6),
+      transparent
+    ),
+    url("../assets/escritorio.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -15,16 +21,15 @@ body {
 .header-second-container_escritorio {
   max-width: 70vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
-  padding: 100px;
-  gap: 50px;
+  padding: 50px;
   h1 {
     font-size: 3rem;
     color: #fff;
-    text-align: center;
   }
   p {
+    max-width: 70%;
     font-size: 1.8rem;
     color: #f0f0f0;
   }
@@ -78,20 +83,20 @@ body {
   }
 }
 
-.valores{
+.valores {
   background-color: #f4f4f4;
 }
-.valores-container{
+.valores-container {
   max-width: 90vw;
   margin: 0 auto;
   padding: 70px 0;
-  h2{
+  h2 {
     font-size: 2.5rem;
     color: $azul-claro;
     text-align: center;
     margin-bottom: 30px;
   }
-  h4{
+  h4 {
     width: 50%;
     margin: 0 auto;
     font-size: 1.5rem;
@@ -99,14 +104,13 @@ body {
     color: $azul-escuro;
   }
 }
-.card-container_escritorio{
+.card-container_escritorio {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 70px 0;
-  
 }
-.card-conteudo_escritorio{
+.card-conteudo_escritorio {
   border-radius: 15px;
   text-align: center;
   padding: 30px;
@@ -115,60 +119,60 @@ body {
   box-shadow: 0px 5px 10px 1px #000;
   display: grid;
 
-  h3{
+  h3 {
     font-size: 1.5rem;
     color: $azul-claro;
     margin-bottom: 20px;
   }
-  p{
+  p {
     font-size: 1.2rem;
     color: $azul-escuro;
   }
 }
-.diferencial-container{
+.diferencial-container {
   max-width: 90vw;
   margin: 0 auto;
   padding: 70px 0;
 
-  h2{
+  h2 {
     font-size: 2.5rem;
     color: $azul-claro;
     text-align: center;
     margin-bottom: 30px;
   }
 }
-.diferncial-card-container{
+.diferncial-card-container {
   display: flex;
   align-items: center;
-  gap: 50px;  
+  gap: 50px;
 }
-.diferencial-card{
+.diferencial-card {
   background-color: #f4f4f4;
   padding: 30px;
   border-radius: 15px;
   width: 40vw;
   box-shadow: 0px 5px 10px 1px #000;
 
-  h3{
+  h3 {
     font-size: 1.5rem;
     color: $azul-claro;
     margin-bottom: 20px;
     text-align: center;
   }
-  p{
+  p {
     font-size: 1.2rem;
     color: $azul-escuro;
     text-align: center;
-  }  
+  }
 }
 
-dt{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    font-weight: 600;
-    color: $azul-claro;
-  }
-  dd{
-    margin-bottom: 20px;
-  }
+dt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+  color: $azul-claro;
+}
+dd {
+  margin-bottom: 20px;
+}
