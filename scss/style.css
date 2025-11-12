@@ -167,7 +167,7 @@ body {
 
 .header-container {
   background-color: #131f2c;
-  background-image: url("../assets/HeroSection.png");
+  background-image: linear-gradient(to right, #131f2c 35%, rgba(19, 31, 44, 0.6), transparent), url("../assets/HeroSection.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
